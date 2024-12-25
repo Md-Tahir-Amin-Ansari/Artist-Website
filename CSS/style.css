@@ -1,0 +1,13 @@
+
+.card-img-top {
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image scales and crops to fit */
+    width: 100%; /* Ensure it fills the card width */
+}
+.lime{
+    color: #32aa27;
+}
+.lime-bg{
+    background-color: #32aa27;
+    color: white;
+}

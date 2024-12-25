@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunflower Artist</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg sticky-top bg-light">
+<!--    navbar full@lg ham menu below lg-->
+    <div class="container">
+<!--        Title and flower icon-->
+        <a href="#hero" class="navbar-brand">
+            <span class="fw-bold">
+                <i class="bi bi-flower3"></i>
+                Sunflower Artist
+            </span>
+        </a>
+<!--        Title and flower icon-->
+<!--        navbar toggler-->
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+<!--        navbar toggler-->
+<!--This div would open on clicking the navbar toggler-->
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="menu">
+            <ul class="navbar-nav mb-4 mb-lg-0">
+<!--                Home link-->
+                <li class="nav-item mx-3 mt-3 mt-lg-1">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+<!--                about section link-->
+                <li class="nav-item mx-3 mt-3 mt-lg-1">
+                    <a class="nav-link active" aria-current="page" href="#about">About</a>
+                </li>
+<!--                gallery section link-->
+                <li class="nav-item mx-3 mt-3 mt-lg-1">
+                    <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+                </li>
+<!--               contact button -->
+                <a href="#contact" class="btn btn-lg btn-outline-success mx-3 mt-3 mt-lg-0">Contact</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--Home Hero-->
+<section id="home" class="bg-success">
+    <div class="container text-white">
+        <div class="row align-items-center justify-content-start p-5">
+            <div class="col-lg-8 my-5">
+                <h2 class="display-5 fw-bold my-3">Sunflower Artist</h2>
+                <p class="lead my-3">Expressive portraits that tells stories</p>
+                <a href="#gallery" class="btn btn-lg btn-secondary my-3 lime-bg">View Services</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--About-->
+<section id="about">
+    <div class="container">
+        <div class="row align-items-center justify-content-center p-5">
+            <div class="col-lg-6 my-5">
+                <p class=" my-3 fw-bold lime">Meet Sunflower Artist</p>
+                <h2 class=" my-3">Experience the beauty of portraits</h2>
+                <p class="lead" data-aos="fade-up">
+                    Sunflower Artist, the pen name of <i>Shagufta Muzzammil</i>,
+                    embodies the essence of vibrant and expressive art in Kolkata, IN.
+                    Specializing in oil pastel portraits, Shagufta captures intricate
+                    details and emotions that resonate deeply with viewers. Each piece
+                    tells a story, reflecting the beauty of human experience and connection.
+                    Explore her captivating portfolio,
+                    commission your own unique artwork, and join her on this artistic
+                    journey that celebrates creativity and expression.
+                </p>
+                <span>
+                    <a href="#contact" class="text-secondary lead">Get in touch</a>
+                </span>
+
+            </div>
+            <div class="col-lg-6 my-5">
+                <img src="image/about.png" class="shadow-lg img-fluid" alt="Responsive image" style="scale: 0.8">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Gallery with see more option-->
+<section id="gallery" class="bg-body-secondary">
+    <div class="container bg-body-secondary">
+<!--        gallery heading-->
+        <div class="row align-items-center justify-content-start p-3">
+            <div class="col-md-8">
+                <p class=" my-3 fw-bold fw-bold" style="color: #32aa27">Artistic commission</p>
+                <h2 class=" my-3">Bring your vision to life with custom portraits.</h2>
+            </div>
+        </div>
+<!--        gallery cards-->
+        <div class="row align-items-center justify-content-around p-3">
+            <div class="col-md-4 col-lg-3">
+                <div class="card my-3 shadow" data-aos="fade-right" data-aos-delay="200"
+                     >
+                    <img class="card-img-top" src="image/portrait.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Portrait</h5>
+                        <p class="card-text"><i>"Capture your essence with a hand-drawn portrait. Perfect for gifts, home decor, or personal keepsakes."</i></p>
+                        <a href="#" class="btn btn-outline-success">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card my-3 shadow" data-aos="fade-up" data-aos-delay="200"
+                     >
+                    <img class="card-img-top" src="image/sketch.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Sketch</h5>
+                        <p class="card-text"><i>"Simple yet elegant pencil sketches that highlight intricate details and raw beauty."</i></p>
+                        <a href="#" class="btn btn-outline-success">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card my-3 shadow" data-aos="fade-left" data-aos-delay="200"
+                     >
+                    <img class="card-img-top" src="image/oil_pastel.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Oil Pastel</h5>
+                        <p class="card-text"><i>"Vivid and expressive oil pastel creations that bring your imagination to life in bold colors."</i></p>
+                        <a href="#" class="btn btn-outline-success" >More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--Contact-->
+<section id="contact">
+    <div class="row justify-content-between align-item-center  m-2 p-2 p-md-4 m-md-4 p-lg-5 m-lg-5">
+        <div class="col-lg-5 mx-md-1 px-md-1 mx-lg-3 px-lg-3">
+            <p class="fw-bold lime">Get in Touch</p>
+            <h2 class="fw-bold">Connect with your artist today!</h2>
+            <form class="mt-4">
+                <div class="mb-3">
+                    <label for="name" class="text-secondary fw-bold form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="eg. Maria" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="text-secondary fw-bold form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="eg. maria@hotmail.com" required>
+                    <div id="emailHelp" class="form-text text-body-tertiary">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label text-secondary fw-bold ">Subject</label>
+                    <select class="form-select" id="subject" required>
+                        <option value="" disabled selected>Select a subject</option>
+                        <option value="commission">Commission Request</option>
+                        <option value="feedback">Feedback on Artwork</option>
+                        <option value="collaboration">Collaboration Inquiry</option>
+                        <option value="general">General Inquiry</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label text-secondary fw-bold">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="attachment" class="form-label text-secondary fw-bold">Attach a file (optional)</label>
+                    <input type="file" class="form-control" id="attachment">
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-lg btn-outline-success" type="button">Button</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-5 my-5 mx-md-1 px-md-1 mx-lg-3 px-lg-3">
+            <h2 class="fw-bold mb-5">FAQs</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How do I commission a custom artwork?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            You can fill out the contact form on the website with details about your request.
+                            I’ll get back to you within 48 hours to discuss the project.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is the average turnaround time for a commissioned piece?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The timeline depends on the size and complexity of the artwork.
+                            Typically, it takes 2-4 weeks.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Do you ship internationally?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, I ship worldwide.
+                            Shipping costs and times vary depending on your location.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Can I request revisions to my commissioned artwork?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, I offer up to two revisions during the
+                            process to ensure you’re satisfied with the final piece.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            What payment methods do you accept?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            I accept PayPal, credit cards, and bank transfers.
+                            Payment details will be provided during the commissioning process.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Do you offer digital versions of your artwork?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, I can provide high-resolution digital files upon request.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<section id="footer" class="bg-success">
+    <div class="container">
+        <div class="row justify-content-between align-item-center py-5">
+            <div class="col-lg-3">
+                <p class="lead text-light">Social</p>
+                <p class="m-2"><a
+                        href=""
+                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">
+                    <i class="bi bi-instagram m-3"></i>Instagram</a>
+                </p>
+                <p class="m-2"><a
+                        href=""
+                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">
+                    <i class="bi bi-youtube m-3"></i>YouTube</a>
+                </p>
+                <p class="m-2">
+                    <a href="" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">
+                        <i class="bi bi-facebook m-3"></i>
+                        FaceBook
+                    </a>
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <p class="lead text-light">Phone</p>
+                <p class="m-2">
+                    <a href="" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">
+                        <i class="bi bi-phone m-3"></i>
+                        +91 xxxx xxxx xx
+                    </a>
+                </p>
+                <p class="lead text-light">Email</p>
+                <p class="m-2">
+                    <a href="" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">
+                        <i class="bi bi-envelope m-3"></i>
+                        Email
+                    </a>
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <p class="lead text-light">Subscribe to our newsletter</p>
+                <p class="m-2 text-light">
+                    Monthly digest of what's new and exciting from us.
+                </p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2 my-md-4 mx-md-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn lime-bg" type="button">Subscribe</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <small class="text-light">© 2024 Company, Inc. All rights reserved.</small>
+</section>
+
+<!--EOF-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="JS/app.js"></script>
+</body>
+</html>
