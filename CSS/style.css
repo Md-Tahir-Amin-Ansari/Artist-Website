@@ -11,3 +11,18 @@
     background-color: #32aa27;
     color: white;
 }
+#homeImg{
+    transition: 0.4s;
+}
+#homeImg:hover{
+    transform: scale(1.1);
+}
+.custom-card{
+    transition: 0.4s;
+}
+.custom-card:hover{
+    transform: scale(1.1);
+}
+.custom-card:hover .card-title {
+    color: #32aa27; /* Change the color of all <p> tags inside the card */
+}
