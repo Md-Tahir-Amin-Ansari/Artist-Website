@@ -1,6 +1,9 @@
 # 🎨 Artist Portfolio Website
 
 ## 📖 Overview
+
+![Preview](image/mockup.png)
+
 This project is a fully responsive portfolio website designed for an artist, "Sunflower Artist," to showcase their stunning artwork and connect with potential clients. Built using **Bootstrap**, this website offers a professional and visually appealing platform for promoting artistic services and engaging with an audience.
 
 ---
