@@ -110,8 +110,9 @@
             </div>
         </div>
 <!--        gallery cards-->
-        <div class="row align-items-center justify-content-around p-3">
-            <div class="col-md-4 col-lg-3 custom-card">
+        <div class="row d-flex align-items-stretch justify-content-around p-3">
+<!--            cards naturally fits the content so to avoid different sized cards put d-flex align-items-stretch in parent-->
+            <div class="col-md-4 col-lg-3 custom-card d-flex align-items-stretch">
                 <div class="card my-3 shadow" data-aos="fade-right" data-aos-delay="200"
                      >
                     <img class="card-img-top" src="image/portrait.jpg" alt="Card image cap">
@@ -122,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 custom-card">
+            <div class="col-md-4 col-lg-3 custom-card d-flex align-items-stretch">
                 <div class="card my-3 shadow" data-aos="fade-up" data-aos-delay="200"
                      >
                     <img class="card-img-top" src="image/sketch.jpg" alt="Card image cap">
@@ -133,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 custom-card">
+            <div class="col-md-4 col-lg-3 custom-card d-flex align-items-stretch">
                 <div class="card my-3 shadow" data-aos="fade-left" data-aos-delay="200"
                      >
                     <img class="card-img-top" src="image/oil_pastel.jpg" alt="Card image cap">
@@ -183,7 +184,7 @@
                     <input type="file" class="form-control" id="attachment">
                 </div>
                 <div class="d-grid gap-2">
-                    <button class="btn btn-lg btn-outline-success" type="button">Button</button>
+                    <button class="btn btn-lg btn-outline-success" type="button">Submit</button>
                 </div>
             </form>
         </div>

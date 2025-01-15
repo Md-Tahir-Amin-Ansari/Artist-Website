@@ -26,3 +26,11 @@
 .custom-card:hover .card-title {
     color: #32aa27; /* Change the color of all <p> tags inside the card */
 }
+@media (max-width: 480px) {
+    .custom-card:hover{
+        transform: scale(1.05);
+    }
+    .custom-card:hover .card-title {
+        color: #32aa27; /* Change the color of all <p> tags inside the card */
+    }
+}
